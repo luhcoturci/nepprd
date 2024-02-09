@@ -2,12 +2,12 @@
 
 
 // footer
-//$lang['footer_text'] = "Developed By USAID/Timor-Leste Trade Governance Activity";
+$lang['footer_text'] = "National Enquiry Point, Customs Authority";
 // footer
-$lang['footer_text'] = "This system has been developed in partnership with the Customs Authority ";
+//$lang['footer_text'] = "This system has been developed in partnership with the Customs Authority ";
 $lang['footer_text1'] = "and made possible through the generous support of the American people through the United States Agency for International Development (USAID)";
 
-$lang['home_title'] = "Timor Leste NEP for Customs";
+$lang['home_title'] = "Customs Authority National Enquiry Point";
 
 $lang['app_name'] = "<strong>N</strong>ational <strong>E</strong>nquiry <strong>P</strong>oint for <strong>C</strong>ustoms";
 //Home

@@ -22,19 +22,19 @@ $lang['home_view'] = "Inkéritu Sira Ne'ebe Haree Barak Liu";
 $lang['home_enquiries'] = "Inkéritu Sira";
 
 
-$lang['footer_text'] = "Sentru Inkéritu Nasional, Autoridade Aduaneira";
+$lang['footer_text'] = "Centro Inqu&eacuterito Nasional, Autoridade Aduaneira";
 
-$lang['home_title'] = "Sentru Inkéritu Nasional Autoridade Aduaneira";
+$lang['home_title'] = "Centro Inqu&eacuterito Nasional Autoridade Aduaneira";
 
 
-$lang['home_replies'] = "Resposta Sira";
+$lang['home_replies'] = "Respostas";
 
 $lang['home_answered'] = "Responde < 72 Oras";
 
 $lang['home_visits'] = "Vizita Sira";
 
 
-$lang['home_submit'] = "Submete Inkéritu";
+$lang['home_submit'] = "Submete Inqu&eacuterito";
 
 $lang['home_direct'] = "Ita nia koneksaun direta ba Apoiu Alfândega";
 $lang['home_info'] = "Asesu ba informasaun ne'ebe disponivel hela deit, haforsa husi bazededadus NEP no hariku husi ita nia Inkéritu";
@@ -48,25 +48,25 @@ $lang['app_name'] = "<strong>P</strong>onto <strong>N</strong>asional <strong>I<
 
 //form
 
-$lang['home_form_submit_info'] = "Area hotu ne'ebe marka ho asterisku (*) ne'e obrigatoriu";
+$lang['home_form_submit_info'] = "Todos os campos marcados com um asterisco (*) s�o obrigat&oacuterios";
 
-$lang['home_form_submit_name'] = "Naran";
+$lang['home_form_submit_name'] = "Nome";
 $lang['home_form_submit_email'] = "Email";
 
 $lang['home_form_submit_telephone'] = "Telefone";
 
-$lang['home_form_submit_company'] = "Kompañia";
+$lang['home_form_submit_company'] = "Companhia";
 
 $lang['home_form_submit_enquiryid'] = "Id Inkéritu";
 $lang['home_enquiryby'] = "Inkéritu Husi";
 $lang['home_repliedfrom'] = "Resposta Husi";
-$lang['home_form'] = "Formulariu Inkéritu";
-$lang['home_form_submit_enquiry'] = "Inkéritu";
-$lang['home_at'] = "iha";
-$lang['home_cancel'] = "Kansela";
-$lang['home_send'] = "Haruka Inkéritu";
+$lang['home_form'] = "Formul&aacuterio Inqu&eacuterito";
+$lang['home_form_submit_enquiry'] = "Inqu&eacuterito";
+$lang['home_at'] = "no";
+$lang['home_cancel'] = "Canselar";
+$lang['home_send'] = "Submete Inqu&eacuterito";
 $lang['home_submit1'] = "Submete";
-$lang['home_information'] = "Informasaun";
+$lang['home_information'] = "Informacao";
 $lang['home_search1'] = "Buka";
 $lang['home_post'] = "Publika";
 
@@ -78,14 +78,14 @@ $lang['home_category'] = "Kategoria sira";
 $lang['home_help'] = "Ajuda! Hau nia Inkéritu seidauk hetan resposta";
 $lang['home_help_info'] = "Halo favor, refere <strong>ID Inkéritu</strong> ne'ebe haruka ona ba ita liu husi email wainhira ita submite ita nia Inkéritu. Se ita bo'ot laiha ona ID ne'e, ami la garante atu hetan ita nia Inkéritu.";
 
-$lang['home_form_submit_info1'] = "Halo favor, hakerek ita nia Inkéritu ho detailla liu";
+$lang['home_form_submit_info1'] = "Por favor, torne o seu pedido o mais detalhado poss&iacutevel";
 $lang['home_form_submit_info2'] = "Halo favor, hakerek ita nia komentario ho detailla liu";
 
 $lang['home_form_submit_note'] = "Nota: Halo favor, husu Inkéritu ida dala ida & liafuan limite ba 100 liafuan";
 
-$lang['enquiry_help'] = "Obrigado! Ita nia Inkéritu haruka ona";
+$lang['enquiry_help'] = "Obrigado! O seu pedido foi submetido";
 
-$lang['enquiry_help_desc'] = "Ita sei simu email konfirmasaun iha tempo badak. Ita sei notifikadu husi email kuando ita nia Inkéritu hetan ona resposta";
+$lang['enquiry_help_desc'] = "Voc&ecirc;  receber&aacute um e-mail de confirma&ccedil;&atilde;o em breve. Voc&ecirc;  ser&aacute notificado por e-mail quando a consulta for respondida";
 
 
 $lang['enquiry_help_hold'] = "Hein lai! Molok haruka ita nia Inkéritu, ami hetan Inkéritu sira ne'ebe hanesan ita nian!";
@@ -123,17 +123,17 @@ $lang['hours'] = "oras";
 $lang['last_reply'] = "responde ikus";
 $lang['sorry'] = "Deskulpa, liafuan lia ona 100";
 
-$lang['words'] = "liafuan no";
+$lang['words'] = "palavra(s) e";
 
-$lang['characters'] = "karakter";
+$lang['characters'] = "Caracteres";
 
-$lang['verification1'] = "Halo favor, verifika email ita nian";
-$lang['verification2'] = "Kode verifikasaun haruka ona ba ita nia email.";
-$lang['verification3'] = "Kode sei ativu iha minutu 10 tuir mai";
-$lang['verification4'] = "Hatama kode";
+$lang['verification1'] = "Por favor, verifique o seu e-mail";
+$lang['verification2'] = "Um c&oacutedigo de verifica&ccedil;&atilde;o foi enviado para o seu e-mail.";
+$lang['verification3'] = "O c&oacutedigo ficar&aacute ativo nos pr&oacuteximos 10 minutos";
+$lang['verification4'] = "Insira o c&oacutedigo";
 
-$lang['verification5'] = "Obrigado! Inkéritu ita nia haruka ona.";
-$lang['verification6'] = "Ita sei simu email konfirmasaun. ita sei informa husi email kuando hetan ona resposta";
+$lang['verification5'] = "Obrigado! O seu pedido foi enviado.";
+$lang['verification6'] = "Voc&ecirc;  receber&aacute um e-mail de confirma&ccedil;&atilde;o em breve. Voc&ecirc;  ser&aacute notificado por e-mail quando a consulta for respondida";
 $lang['first'] = "Inisiu";
 $lang['last'] = "Ikus";
 

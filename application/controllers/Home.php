@@ -46,6 +46,8 @@ class Home extends MY_Controller {
 			$this->lang->load('nep','tetun');
 		}elseif($lg=='id'){
 			$this->lang->load('nep','indonesia');
+		}elseif($lg=='pt'){
+			$this->lang->load('nep','portugues');
 		}	
 	     
 		$this->render('public/enquiry_form');
@@ -63,8 +65,9 @@ class Home extends MY_Controller {
 			$this->lang->load('nep','tetun');
 		}elseif($lg=='id'){
 			$this->lang->load('nep','indonesia');
-		}
-	
+		}elseif($lg=='pt'){
+			$this->lang->load('nep','portugues');
+		}	
 		
 	    $config = array(
 	        array(
@@ -163,6 +166,8 @@ class Home extends MY_Controller {
 			$this->lang->load('nep','tetun');
 		}elseif($lg=='id'){
 			$this->lang->load('nep','indonesia');
+		}elseif($lg=='pt'){
+			$this->lang->load('nep','portugues');
 		}
 			
 		$this->render('/public/verificaction');
@@ -179,8 +184,9 @@ class Home extends MY_Controller {
 			$this->lang->load('nep','tetun');
 		}elseif($lg=='id'){
 			$this->lang->load('nep','indonesia');
-		}
-		$code = $this->input->post('code');
+		}elseif($lg=='pt'){
+			$this->lang->load('nep','portugues');
+		}		$code = $this->input->post('code');
 		//$id   = $this->input->post('id');
 		//echo $code;
 

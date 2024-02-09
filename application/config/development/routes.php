@@ -20,6 +20,7 @@ $route['check']= 'home/check_enquiry';
 $route['en']= 'home/ChangeLanguage/en';
 $route['tt']= 'home/ChangeLanguage/tt';
 $route['id']= 'home/ChangeLanguage/id';
+$route['pt']= 'home/ChangeLanguage/pt';
 
 //home/check_enquiry
 

@@ -14,10 +14,12 @@
 
           <ul class="nav navbar-nav navbar-right">
             
-           
-						<li><a href="<?php echo base_url(); ?>en" title="English">  <i class='em em-flag-gb'></i> </a></li>
-					       <li><a href="<?php echo base_url(); ?>tt" title="Tetun"> <i class='em em-flag-tl'></i></a></li>
+            					<li><a href="<?php echo base_url(); ?>tt" title="Tetun"> <i class='em em-flag-tl'></i></a></li>
+						<li><a href="<?php echo base_url(); ?>pt" title="Portugues"> <i class='em em-flag-pt'></i></a></li>       
+						<li><a href="<?php echo base_url(); ?>en" title="English">  <i class='em em-flag-gb'></i> </a></li>					      
 						<li><a href="<?php echo base_url(); ?>id" title="Indonesia"> <i class='em em-flag-id'></i></a></li>
+						
+
        
           </ul>
 

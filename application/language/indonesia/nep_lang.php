@@ -7,7 +7,9 @@
 $lang['footer_text'] = "This system has been developed in partnership with the Customs Authority ";
 $lang['footer_text1'] = "and made possible through the generous support of the American people through the United States Agency for International Development (USAID)";
 
-$lang['home_title'] = "Timor Leste NEP untuk Bea Cukai";
+$lang['footer_text'] = "Pusat Pertanyaan Nasional, Bea Cukai";
+
+$lang['home_title'] = "Pusat Pertanyaan Nasional Bea Cukai";
 
 $lang['app_name'] = "<strong>T</strong>itik <strong>P</strong>ertanyaan <strong>N</strong>asional untuk <strong>B</strong>ea Cukai";
 //Home

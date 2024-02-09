@@ -211,7 +211,7 @@ background-color: #38516a;
     float: left;
     margin-right: -100px;
     position: relative;
-    background-image:url('http://localhost/newnep/assets/img/1f1f9-1f1f1.png')
+    background-image:url('<?php echo base_url(); ?>/assets/img/1f1f9-1f1f1.png')
 }
 </style>
   </head>

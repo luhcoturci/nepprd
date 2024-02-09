@@ -1,7 +1,7 @@
   <footer>        
     
     <div class="col-lg-12 text-center">
-      <small>&copy; <?php echo date("Y"); ?> National Enquire Point, Timor Leste</small>
+      <small>&copy; <?php echo date("Y"); ?> <?php echo $this->lang->line('footer_text');?></small>
     </div>
 </footer>
 
