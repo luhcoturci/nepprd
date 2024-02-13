@@ -54,7 +54,7 @@ class Home extends MY_Controller {
 	}
 	
 	public function check_enquiry()
-	{
+	{	ini_set('display_errors', 0);
 
 		$languages = $this->session->userdata('languages');
 		$lg=$languages;

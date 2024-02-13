@@ -114,7 +114,7 @@ $lang['characters'] = "characters";
 $lang['verification1'] = "Please verify your email";
 $lang['verification2'] = "A verification code has been sent to your email.";
 $lang['verification3'] = "The code will active for next 10 minutes.";
-$lang['verification4'] = "Enter the code";
+$lang['verification4'] = "Enter here";
 
 $lang['verification5'] = "Thank you! Your Enquiry has been submitted.";
 $lang['verification6'] = "You will receive an email confirmation shortly. You will be notified by email when the enquiry has been replied to.";

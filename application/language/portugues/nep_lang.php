@@ -22,9 +22,9 @@ $lang['home_view'] = "Inkéritu Sira Ne'ebe Haree Barak Liu";
 $lang['home_enquiries'] = "Inkéritu Sira";
 
 
-$lang['footer_text'] = "Centro Inqu&eacuterito Nasional, Autoridade Aduaneira";
+$lang['footer_text'] = "Portal Inqu&eacuterito Nasional, Autoridade Aduaneira";
 
-$lang['home_title'] = "Centro Inqu&eacuterito Nasional Autoridade Aduaneira";
+$lang['home_title'] = "Portal Inqu&eacuterito Nasional Autoridade Aduaneira";
 
 
 $lang['home_replies'] = "Respostas";
@@ -130,7 +130,7 @@ $lang['characters'] = "Caracteres";
 $lang['verification1'] = "Por favor, verifique o seu e-mail";
 $lang['verification2'] = "Um c&oacutedigo de verifica&ccedil;&atilde;o foi enviado para o seu e-mail.";
 $lang['verification3'] = "O c&oacutedigo ficar&aacute ativo nos pr&oacuteximos 10 minutos";
-$lang['verification4'] = "Insira o c&oacutedigo";
+$lang['verification4'] = 'Insira aqui';
 
 $lang['verification5'] = "Obrigado! O seu pedido foi enviado.";
 $lang['verification6'] = "Voc&ecirc;  receber&aacute um e-mail de confirma&ccedil;&atilde;o em breve. Voc&ecirc;  ser&aacute notificado por e-mail quando a consulta for respondida";

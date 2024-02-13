@@ -6,7 +6,7 @@
 	<div class="modal-dialog">
 		<div class="modal-content">
 			
-                                 <center><strong style='color:red'><?php echo $this->lang->line('load'); ?>...<br><div id="load"  class="loader"></div>   </strong></center>
+                                 <center><?php echo $this->lang->line('load'); ?>...<br><div id="load"  class="loader"></div></center>
                            
 		</div>
 	</div>
@@ -26,7 +26,7 @@
       <div class="col-md-6 col-md-offset-3">
         <?php //echo form_open("/home/verification_submit/"); ?>
 		
-		 <form method="post" action="<?php echo base_url();?>home/verification_submit" enctype="multipart/form-data">
+		 <form method="post" action="<?php echo base_url();?>verify" enctype="multipart/form-data">
         <div class="form-group">
           <label class="control-label"></label>
          <?php

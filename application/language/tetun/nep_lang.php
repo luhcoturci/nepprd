@@ -22,9 +22,9 @@ $lang['home_view'] = "Inkéritu Sira Ne'ebe Haree Barak Liu";
 $lang['home_enquiries'] = "Inkéritu Sira";
 
 
-$lang['footer_text'] = "Sentru Inkéritu Nasional, Autoridade Aduaneira";
+$lang['footer_text'] = "Portal Inkéritu Nasional, Autoridade Aduaneira";
 
-$lang['home_title'] = "Sentru Inkéritu Nasional Autoridade Aduaneira";
+$lang['home_title'] = "Portal Inkéritu Nasional Autoridade Aduaneira";
 
 
 $lang['home_replies'] = "Resposta Sira";
@@ -130,7 +130,7 @@ $lang['characters'] = "karakter";
 $lang['verification1'] = "Halo favor, verifika email ita nian";
 $lang['verification2'] = "Kode verifikasaun haruka ona ba ita nia email.";
 $lang['verification3'] = "Kode sei ativu iha minutu 10 tuir mai";
-$lang['verification4'] = "Hatama kode";
+$lang['verification4'] = "Hatama iha nee";
 
 $lang['verification5'] = "Obrigado! Inkéritu ita nia haruka ona.";
 $lang['verification6'] = "Ita sei simu email konfirmasaun. ita sei informa husi email kuando hetan ona resposta";

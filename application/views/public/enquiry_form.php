@@ -1,12 +1,13 @@
 <div class="container">
 <?php
+ini_set('display_errors', 0);
           if(empty($this->session->flashdata('code'))){
 			?>  
 <div class="modal" id="success-modal">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			
-                                 <center><strong style='color:red'><?php echo $this->lang->line('load'); ?>...<br><div id="load"  class="loader"></div>   </strong></center>
+                                 <center><?php echo $this->lang->line('load'); ?>...<br><div id="load"  class="loader"></div> </center>
                            
 		</div>
 	</div>
@@ -17,11 +18,13 @@
 
 <div class="row">
     <div class="col-md-8">
+    <h1 class="page-title"><?php echo $this->lang->line('home_title');?></h1>
     
+
     <div class="page-header"><?php echo $this->lang->line('home_form');?></div>
             <?php 
                 $attr = array('class' => 'form-horizontal', 'id' => 'enquiryModalForm');
-                echo form_open('/home/check_enquiry',$attr); 
+                echo form_open('/check',$attr); 
             ?>
   <fieldset>
     

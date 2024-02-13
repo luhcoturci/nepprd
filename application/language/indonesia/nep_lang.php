@@ -127,7 +127,7 @@ $lang['characters'] = "huruf";
 $lang['verification1'] = "Harap verifikasi email Anda";
 $lang['verification2'] = "Kode verifikasi telah dikirimkan ke email Anda.";
 $lang['verification3'] = "Kode akan aktif selama 10 menit berikutnya.";
-$lang['verification4'] = "Masukan kode";
+$lang['verification4'] = "Masukan disini";
 $lang['verification5'] = "Terima kasih! Permintaan Anda telah dikirim.";
 $lang['verification6'] = "Anda akan segera menerima email konfirmasi. Anda akan diberitahu melalui email ketika pertanyaan telah dijawab.";
 
