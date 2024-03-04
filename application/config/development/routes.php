@@ -16,6 +16,8 @@ $route['search'] = 'home/search';
 $route['enquiry/(:any)'] = 'home/enquiry/$1';
 
 $route['check']= 'home/check_enquiry';
+$route['verification']= 'home/verification';
+
 $route['verify']= 'home/verification_submit';
 $route['en']= 'home/ChangeLanguage/en';
 $route['tt']= 'home/ChangeLanguage/tt';

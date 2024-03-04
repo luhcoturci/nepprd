@@ -123,13 +123,16 @@ padding-top: 0px !important;
 
         <div id="site-logo" class="site-branding header-two-logo wpex-clr">
             <!-- Logo image -->
-            <img src="https://ctp.tlictprojects.com/wp-content/uploads/2021/07/CA-logo-english-1.svg" alt="Logo" class="logo-img" width="232" height="70">
+            <img src="<?php echo base_url(); ?>assets/images/<?php echo $this->lang->line('logo');?>" alt="Logo" class="logo-img" width="232" height="70">
         </div>
 <div id="myDIV">
 
 <?php 
-		$languages1 = $this->session->userdata('languages');	
-		$lg1=$languages1;
+		$lg = $this->session->userdata('languages');
+if($lg==""){
+$lg='tt';
+}	
+		
 
  ?>
  
@@ -141,10 +144,10 @@ padding-top: 0px !important;
 
             <ul class="language-switcher">
 		
-               <li><a href="<?php echo base_url(); ?>tt" class="lang-link <?php if($lg1 === 'tt'){echo 'active';} ?>">TT</a></li>
-                <li><a href="<?php echo base_url(); ?>pt"  class="lang-link <?php if($lg1 === 'pt'){echo 'active';} ?>">PT</a></li>
-                <li><a href="<?php echo base_url(); ?>en"  class="lang-link <?php if($lg1 === 'en'){echo 'active';} ?>">EN</a></li>
-                <li><a href="<?php echo base_url(); ?>id"  class="lang-link <?php if($lg1 === 'id'){echo 'active';} ?>">ID</a></li>
+               <li><a href="<?php echo base_url(); ?>tt" class="lang-link <?php if($lg === 'tt'){echo 'active';} ?>">TT</a></li>
+                <li><a href="<?php echo base_url(); ?>pt"  class="lang-link <?php if($lg === 'pt'){echo 'active';} ?>">PT</a></li>
+                <li><a href="<?php echo base_url(); ?>en"  class="lang-link <?php if($lg === 'en'){echo 'active';} ?>">EN</a></li>
+                <li><a href="<?php echo base_url(); ?>id"  class="lang-link <?php if($lg === 'id'){echo 'active';} ?>">ID</a></li>
 
             </ul>
         </aside>

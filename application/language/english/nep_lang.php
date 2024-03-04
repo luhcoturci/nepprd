@@ -10,6 +10,7 @@ $lang['footer_text1'] = "and made possible through the generous support of the A
 $lang['home_title'] = "Customs Authority National Enquiry Point";
 
 $lang['app_name'] = "<strong>N</strong>ational <strong>E</strong>nquiry <strong>P</strong>oint for <strong>C</strong>ustoms";
+$lang['logo'] = "CA-logo-english-1.svg";
 //Home
 $lang['home_view'] = "Most Viewed Enquiries";
 

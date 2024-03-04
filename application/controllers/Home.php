@@ -25,8 +25,9 @@ class Home extends MY_Controller {
 	function changeLanguage($lang1){
     	$this->load->library('session');
         $lg=$lang1;
-       	$this->load->library('session');
+       	
 	$this->session->set_userdata('languages', $lg);	   
+
 	redirect($_SERVER['HTTP_REFERER']);		
     
 	}
@@ -48,6 +49,9 @@ class Home extends MY_Controller {
 			$this->lang->load('nep','indonesia');
 		}elseif($lg=='pt'){
 			$this->lang->load('nep','portugues');
+		}else{
+			$this->lang->load('nep','tetun');
+
 		}	
 	     
 		$this->render('public/enquiry_form');
@@ -127,7 +131,7 @@ class Home extends MY_Controller {
   			CURLOPT_FOLLOWLOCATION => true,
   			CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
   			CURLOPT_CUSTOMREQUEST => 'POST',
-  			CURLOPT_POSTFIELDS => 'name='.$this->input->post('inputName').'&email='.$this->input->post('inputEmail').'&enquiry='.$this->input->post('inputEnquiry'),
+  			CURLOPT_POSTFIELDS => 'name='.$this->input->post('inputName').'&email='.$this->input->post('inputEmail').'&phone='.$this->input->post('inputPhone').'&enquiry='.$this->input->post('inputEnquiry'),
   			CURLOPT_HTTPHEADER => array(
     			'Content-Type: application/x-www-form-urlencoded'
   			),
@@ -142,12 +146,18 @@ class Home extends MY_Controller {
 
   			if($r['result']==200){
 			
-				$this->render('/public/verificaction');
+				//$this->render('/public/verificaction');
+				redirect('verification');
+
+
 			}else{
 
  			$this->session->set_flashdata('error', $this->lang->line('flashdata3'));
 
 			$this->render('public/enquiry_form');
+			//$this->render('/public/verificaction');
+			//redirect('check');	
+			//redirect('verification');
 
 			}
 		}	    
@@ -204,7 +214,7 @@ class Home extends MY_Controller {
 	    if ($this->form_validation->run() == FALSE)
 	    {
 	    	$this->session->set_flashdata('code', validation_errors());
-	        redirect('home/verification/');	         
+	        redirect('verification/');	         
 	    }
 	    else
 	    {
@@ -237,8 +247,11 @@ class Home extends MY_Controller {
 		}else{
 
  		$this->session->set_flashdata('code', $this->lang->line('flashdata3'));
+			redirect('verification');
 
-		$this->render('/public/verificaction');
+
+
+		//$this->render('/public/verificaction');
 		}
 	    	
 	    }

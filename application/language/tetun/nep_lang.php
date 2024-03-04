@@ -20,7 +20,7 @@ $lang['home_title'] = "NEP Timor-Leste ba Alfândega";
 
 $lang['home_view'] = "Inkéritu Sira Ne'ebe Haree Barak Liu";
 $lang['home_enquiries'] = "Inkéritu Sira";
-
+$lang['logo'] = "CA-logo-tetum.svg";
 
 $lang['footer_text'] = "Portal Inkéritu Nasional, Autoridade Aduaneira";
 
